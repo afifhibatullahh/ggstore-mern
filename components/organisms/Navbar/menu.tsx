@@ -24,3 +24,11 @@ export default function Menu(props: Partial<MenuProps>) {
     </li>
   );
 }
+const data = [
+  {
+    username: "amyrobson",
+    text: "adsfsafsadfaasdfasfsfsafd",
+    like: ["user 1", "user 2", "user 3", "user 4"],
+    created_at: "23-01-2022:23:30:03",
+  },
+];

@@ -55,9 +55,7 @@ export default function Auth(props: AuthProps) {
             </li>
             <li>
               <Link href="/sign-in">
-                <a className="dropdown-item text-lg color-palette-2" >
-                  Log Out
-                </a>
+                <a className="dropdown-item text-lg color-palette-2">Log Out</a>
               </Link>
             </li>
           </ul>
