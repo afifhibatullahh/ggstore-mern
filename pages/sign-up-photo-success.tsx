@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 export default function SignUpPhotoSuccess() {
@@ -11,13 +12,7 @@ export default function SignUpPhotoSuccess() {
                 <div className="mb-20">
                   <div className="image-upload text-center">
                     <label htmlFor="file-input">
-                      <img
-                        src="../assets/img/avatar-1.png"
-                        width="120"
-                        height="120"
-                        className="rounded-circle"
-                        alt=""
-                      />
+                      <Image src="/img/avatar-1.png" height={120} width={120} />
                     </label>
                     <input id="file-input" type="file" />
                   </div>
@@ -54,7 +49,7 @@ export default function SignUpPhotoSuccess() {
               <div className="button-group d-flex flex-column mx-auto">
                 <a
                   className="btn btn-create fw-medium text-lg text-white rounded-pill mb-16"
-                  href="./sign-up-success.html"
+                  href="/sign-up-success"
                   role="button"
                 >
                   Create My Account
